@@ -11,15 +11,30 @@ export default function Home() {
   return (
     <div className="page">
       <Topbar />
-      <About />
-      <Services />
-      <FAQ />
+      
+      {/* 1. Home Section (Hero) */}
       <main className="main-content">
         <Intro />
         <Projects />
       </main>
+      
+      {/* 2. About Section */}
+      <About />
+      
+      {/* 3. Projects Section (Reserved / Not Implemented Yet) */}
+      {/* <ProjectsSection /> */}
+      
+      {/* 4. Services Section */}
+      <Services />
+      
+      {/* 5. Contact Section */}
       <Contact />
-      <footer className="footer">© 2026 Aun Uddin Ahmed</footer>
+      
+      {/* 6. FAQ Section */}
+      <FAQ />
+      
+      {/* 7. Footer Section (Reserved / Not Implemented Yet) */}
+      {/* <Footer /> */}
     </div>
   );
 }
